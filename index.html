@@ -4,7 +4,7 @@
     
     <title>Test Menu </title>
     <style>
-        body{
+       body{
             margin:0px;      
               
         }
@@ -17,6 +17,7 @@
                 width:50px;
                 cursor: pointer;
                 font-size: 3px;
+
                 
         }
 
@@ -26,15 +27,18 @@
             color:black;
             font-size: 15px;
         }
-
+           
+        
         .menu-item{ 
-                width:100px;
-                padding: 10px 30px 10px 30px;
+                width:100%;
+               
+                text-align: center;
+                padding-top:10px;
+                padding-bottom: 10px;
                 cursor: pointer;
                 vertical-align: baseline;
-                
-                
-            }
+                position:relative;
+                            }
         
 
         .menu-item:hover {
@@ -46,16 +50,14 @@
         .menu-item:hover .dropdown{
           
           display: block;   
-          float: right;
-          
+
         }
         .dropdown{   
-                width:150px;
-                background-color: lightblue;
-                position:relative;
-                top:-28px;
-                left: 120px;
-                display:none;            
+            top: 0%;
+            left: 100%;
+            position: absolute;
+            background-color: lightblue;         
+            display: none; 
         }
 
         
